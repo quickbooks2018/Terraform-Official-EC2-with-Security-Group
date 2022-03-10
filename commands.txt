@@ -7,3 +7,6 @@
 # aws s3api create-bucket --bucket cloudgeeks-terraform --region us-east-1
 
 # aws s3api put-bucket-versioning --bucket cloudgeeks-terraform --versioning-configuration Status=Enabled
+
+
+echo -n 'IyEvYmluL2Jhc2gKCmFwdCB1cGRhdGUgLXkgJiYgYXB0IGluc3RhbGwgLXkgYW5zaWJsZSBqcSB0ZWxuZXQKCiMgUHl0aG9uIGluc3RhbGxhdGlvbgphcHQgdXBkYXRlIC15CmFwdCBpbnN0YWxsIHNvZnR3YXJlLXByb3BlcnRpZXMtY29tbW9uIC15CmFkZC1hcHQtcmVwb3NpdG9yeSBwcGE6ZGVhZHNuYWtlcy9wcGEgLXkKYXB0IHVwZGF0ZSAteQphcHQgaW5zdGFsbCAteSBweXRob24KYXB0IGluc3RhbGwgcHl0aG9uMy45IC15CnB5dGhvbiAtLXZlcnNpb24KCgojIEVuZA' | base64 --decode
