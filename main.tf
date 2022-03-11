@@ -124,7 +124,7 @@ module "security-group" {
 module "ec2" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "3.4.0"
-  for_each = toset(["one", "two"])
+  for_each = toset(["one", "two", "three"])
 
   name                       = "cloudgeeks-ec2-${each.key}"
   key_name                   = module.ec2-keypair.key_pair_name
