@@ -8,5 +8,17 @@
 
 # aws s3api put-bucket-versioning --bucket cloudgeeks-terraform --versioning-configuration Status=Enabled
 
+###########################
+# AWS Environment Variables
+###########################
+
+export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+export AWS_DEFAULT_REGION=us-east-1
+
+
+##########
+# Userdata
+##########
 
 echo -n 'IyEvYmluL2Jhc2gKCmFwdCB1cGRhdGUgLXkgJiYgYXB0IGluc3RhbGwgLXkgYW5zaWJsZSBqcSB0ZWxuZXQKCiMgUHl0aG9uIGluc3RhbGxhdGlvbgphcHQgdXBkYXRlIC15CmFwdCBpbnN0YWxsIHNvZnR3YXJlLXByb3BlcnRpZXMtY29tbW9uIC15CmFkZC1hcHQtcmVwb3NpdG9yeSBwcGE6ZGVhZHNuYWtlcy9wcGEgLXkKYXB0IHVwZGF0ZSAteQphcHQgaW5zdGFsbCAteSBweXRob24KYXB0IGluc3RhbGwgcHl0aG9uMy45IC15CnB5dGhvbiAtLXZlcnNpb24KCgojIEVuZA' | base64 --decode
